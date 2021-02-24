@@ -1,2 +1,2 @@
 # dice-game-site
-a simple 'game' of rolling dice
+The front-end of a website for a simple 'game' of rolling dice
