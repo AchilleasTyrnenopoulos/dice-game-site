@@ -1,9 +1,9 @@
 //generate random number
-var randomNumber1 = Math.floor(Math.random() * 6);
-var randomNumber2 = Math.floor(Math.random() * 6);
+const randomNumber1 = Math.floor(Math.random() * 6);
+const randomNumber2 = Math.floor(Math.random() * 6);
 
 //array with dices pics
-var dices = ["images/dice1.png", "images/dice2.png", "images/dice3.png", "images/dice4.png", "images/dice5.png", "images/dice6.png"];
+const dices = ["images/dice1.png", "images/dice2.png", "images/dice3.png", "images/dice4.png", "images/dice5.png", "images/dice6.png"];
 
 //set img's src attribute
 document.querySelector(".img1").setAttribute("src", dices[randomNumber1]);
